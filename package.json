@@ -1,0 +1,38 @@
+{
+  "name": "svg-symbol-example-app",
+  "version": "0.0.0",
+  "description": "This application is an example workflow for included svg's as a single file of symbol definitions.",
+  "main": " ",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CrowdHailer/svg-symbol-example-app.git"
+  },
+  "keywords": [
+    "svg",
+    "phonegap",
+    "cordova",
+    "gulp",
+    "vector",
+    "images",
+    "sprite"
+  ],
+  "author": "Peter Saxton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrowdHailer/svg-symbol-example-app/issues"
+  },
+  "homepage": "https://github.com/CrowdHailer/svg-symbol-example-app",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "svgo": "^0.4.5",
+    "gulp-svgmin": "^0.4.6",
+    "gulp-svgstore": "^1.0.1",
+    "gulp-inject": "^1.0.1"
+  }
+}

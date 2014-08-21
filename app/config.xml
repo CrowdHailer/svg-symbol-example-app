@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="uk.co.workshop14.svg-symbol-example-app" version="0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>svg-symbol-example-app</name>
+    <description>
+        This application is an example workflow for included svg's as a single file of symbol definitions.
+    </description>
+    <author email="petersaxton@londonlayout.co.uk" href="www.londonlayout.co.uk">
+        Peter Saxton
+    </author>
+
+    <preference name="permissions" value="none" />
+    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="fullscreen" value="true" />
+
+    <gap:plugin name="org.apache.cordova.device" />
+
+</widget>

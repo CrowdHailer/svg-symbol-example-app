@@ -22,17 +22,29 @@
     body {
         text-align: center;
     }
+    p {
+        font-style: italic;
+    }
     </style>
 </head>
 <body>
     <!-- inject:svg --><!-- endinject -->
     <h1>SVG Symbols</h1>
+    <p>
+        An example app demonstrating the of svg symbols and workflow
+    </p>
     <svg class="green">
         <use xlink:href="#dashed-line"></use>
     </svg>
+    <p>
+        Built with <a href="https://www.npmjs.org/package/gulp-svgstore">gulp svgstore</a>
+    </p>
     <svg class="yellow">
         <use xlink:href="#tram-line"></use>
     </svg>
+    <p>
+        Code available on <a href="https://github.com/CrowdHailer/svg-symbol-example-app">github</a>
+    </p>
     <svg class="red">
         <use xlink:href="#solid-line"></use>
     </svg>

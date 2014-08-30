@@ -1,6 +1,6 @@
 {
   "name": "svg-symbol-example-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "This application is an example workflow for included svg's as a single file of symbol definitions.",
   "main": " ",
   "directories": {

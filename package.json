@@ -9,8 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/gulp",
-    "package": "phonegap remote build android",
-    "serve": "phonegap serve"
+    "package": "phonegap remote build android"
   },
   "repository": {
     "type": "git",

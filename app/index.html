@@ -3,17 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>SVG symbols</title>
+    <style>
+    svg {
+        width: 100%;
+        height: 20px;
+        display: block;
+        margin: 10px 0;
+    }
+    svg.green {
+        fill: #086CA2;
+    }
+    svg.yellow {
+        fill: #1826B0;
+    }
+    svg.red {
+        fill: #00B454;
+    }
+    body {
+        text-align: center;
+    }
+    </style>
 </head>
 <body>
     <!-- inject:svg --><!-- endinject -->
-    <h1>Boooo</h1>
-    <svg>
+    <h1>SVG Symbols</h1>
+    <svg class="green">
         <use xlink:href="#dashed-line"></use>
     </svg>
-    <svg>
+    <svg class="yellow">
         <use xlink:href="#tram-line"></use>
     </svg>
-    <svg>
+    <svg class="red">
         <use xlink:href="#solid-line"></use>
     </svg>
 </body>

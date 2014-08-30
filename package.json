@@ -7,7 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/gulp",
+    "package": "phonegap remote build android",
+    "serve": "phonegap serve"
   },
   "repository": {
     "type": "git",
@@ -33,6 +36,7 @@
     "svgo": "^0.4.5",
     "gulp-svgmin": "^0.4.6",
     "gulp-svgstore": "^1.0.1",
-    "gulp-inject": "^1.0.1"
+    "gulp-inject": "^1.0.1",
+    "del": "^0.1.2"
   }
 }

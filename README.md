@@ -41,3 +41,8 @@ Unsigned App built [here](https://build.phonegap.com/apps/1057319/builds).
 Grunt version available [here](https://github.com/FWeinb/grunt-svgstore).
 
 I have also made a minimal demonstration apps to use a single SVG to generate multiple splashscreens in build step. [Splashscreen Example App](https://github.com/CrowdHailer/splashscreen-example-app)
+
+NOTES
+=====
+
+In android browser setting new svg elements with += causes previous elements to hide. *solution* build entire html string and then set with innerHTML
